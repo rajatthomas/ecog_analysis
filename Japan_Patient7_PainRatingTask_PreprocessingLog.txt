@@ -1,0 +1,11 @@
+Japan_Patient7_PainRatingTask_InsulaXXX.csv files are recorded and pre-processed as follows:
+
+1. Raw signals were recorded at a sampling rate of 1000 Hz and with a bandpass filter of 0.08-300 Hz. No 50 Hz hum filter was used during recordings.
+2. Neural responses were recorded over six sessions and were brought together during pre-processing.
+3. Power analysis of the raw recordings indicated that there was considerable power at 50, 150, 250, 350, and 450 Hz. These were removed with 5 bandstop filters at corresponding frequencies. Succesful removal of noise was verified with power analysis.
+4. Continous recordings were separated into trials of 2 seconds, from the onset to the offset of videos
+5. Each trial was linearly detrended.
+6. From the original 288 trials, 27 was removed beacuse they contained maximal absolute z-score values above 5. Additional 9 trials were manually removed because they contained high-frequency artifacts. This resulted in 288-36=252 artifact-free trials.
+
+  
+

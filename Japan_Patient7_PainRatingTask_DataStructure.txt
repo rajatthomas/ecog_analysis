@@ -1,0 +1,13 @@
+Japan_Patient7_PainRatingTask_InsulaXXX.csv files are structured as follows:
+
+Columns 1 to 1000: One-second time-domain electrophysiological signal from the onset of the video until the onset of the pain expression.
+Columns 1001 to 2000: One-second time-domain electrophysiological signal from the onset of the pain expression until the offset of the video.
+Column 2001: Stimulus type.
+		1: Color. These videos change in color saturation after the 1-second baseline period.
+		2: Face. These videos display facial pain expression after the 1-second baseline period.
+		3: Hand. These videos display hand pain expression after the 1-second baseline period.
+Column 2002: Stimulus intensity.
+		- For color stimuli: 2, 3, and 5
+		- For face stimuli: 1, 2, 3, 4, 5, and 6
+		- For hand stimuli: 2, 3, 4, 5, and 6
+Column 2003: Subjective rating. From 1-10.
